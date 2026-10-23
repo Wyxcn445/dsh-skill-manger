@@ -1,0 +1,5 @@
+# dsh-skill-manager bundle patch：把 skill 管理插件插入 profile 的加载层。
+# Host 半提供 /skill-manager/* 路由，Client 半在 设置 -> Skill 管理 注册面板。
+- insert:
+    - id: skill-manager
+      name: 'dsh-skill-manager'

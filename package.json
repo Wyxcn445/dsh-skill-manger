@@ -1,0 +1,54 @@
+{
+  "name": "dsh-skill-manager",
+  "version": "0.1.0",
+  "description": "统一管理 DSH Skills：浏览、编辑、新建、删除、启停全局（~/.dsh/skills）与项目（<项目>/.dsh/skills）中的 skill。",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "Wyxcn445",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "skills",
+    "skill-manager"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wyxcn445/dsh-skill-manager.git"
+  },
+  "homepage": "https://github.com/Wyxcn445/dsh-skill-manager#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ]
+}

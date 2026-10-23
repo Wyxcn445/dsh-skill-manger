@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Skill Manager">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#3b6ef5"/>
+  <rect x="15" y="12" width="33" height="38" rx="5" fill="#ffffff" opacity="0.96"/>
+  <rect x="21" y="20" width="21" height="3.2" rx="1.6" fill="#3b6ef5"/>
+  <rect x="21" y="27.5" width="15" height="3.2" rx="1.6" fill="#3b6ef5" opacity="0.55"/>
+  <rect x="21" y="35" width="18" height="3.2" rx="1.6" fill="#3b6ef5" opacity="0.55"/>
+  <circle cx="46" cy="46" r="11" fill="#22c55e"/>
+  <path d="M41 46.2l3.4 3.4 6.6-6.8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

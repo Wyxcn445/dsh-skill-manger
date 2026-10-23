@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Skill Manager",
+    "description": "Browse, edit, create, delete, and enable/disable global (~/.dsh/skills) and project (.dsh/skills) skills."
+  }
+}

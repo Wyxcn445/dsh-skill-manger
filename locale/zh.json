@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Skill 管理",
+    "description": "浏览、编辑、新建、删除、启停全局（~/.dsh/skills）与项目（.dsh/skills）中的 skill。"
+  }
+}
